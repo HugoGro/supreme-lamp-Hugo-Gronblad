@@ -1,6 +1,6 @@
 #uppgift 8.1
 
-#def area(a,b):
+#def area (a,b):
     #ar = a*a*3.14
     #cir = b*2*3.14
     #return ar,cir
@@ -11,7 +11,7 @@
 
 #Uppgift 8.3
 
-#def siffror(n):
+#def siffror (n):
     #mengd = 0
     #while n > 0:
         #n //= 10
@@ -22,7 +22,7 @@
 
 #Uppgift 8.4
 
-#def fak(n):
+#def fak (n):
     #resultat = 1
 
     #for i in range(1, n + 1):
@@ -39,7 +39,7 @@
 
 #Uppgift 8.5
 
-#def ar_perfekt(tal):
+#def ar_perfekt (tal):
     #summa = 0
 
 
@@ -61,3 +61,19 @@
 
 #Uppgift 8.6
 
+#def med (sekvens):
+    #summa = 0
+
+    #for tal in sekvens:
+        #summa += tal
+
+    #eturn summa / len(sekvens)
+
+
+
+#lista = [10, 20, 30, 40, 50]
+#tupple = (1, 2, 3, 4, 5)
+
+
+#print("Medelvärde för lista:", med (lista))
+#print("Medelvärde för tuppel:", med(tupple))
