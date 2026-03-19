@@ -77,3 +77,33 @@
 
 #print("Medelvärde för lista:", med (lista))
 #print("Medelvärde för tuppel:", med(tupple))
+
+#Uppgift 8.8
+
+#def fyll (list, start, slut, var):
+    #for i in range(start, slut + 1):
+        #list[i] = var
+
+#a = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+#fyll(a, 5, 9, 2.3)
+
+#print (a)
+
+#Uppgift 8.9
+
+
+#tal = list(map(int, input("Ange heltal (separerade med mellanslag): ").split()))
+
+
+#def udda (x):
+    #return x % 2 != 0
+
+#udda_lista = list(filter(udda, tal))
+
+#print ("Udda tal (med funktion):", udda_lista)
+
+
+#udda_lambda = list(filter(lambda x: x % 2 != 0, tal))
+
+#print ("Udda tal (med lambda):", udda_lambda)
